@@ -11,11 +11,15 @@ The Chat component connects to the WebSocket server when it mounts.
 Messages are sent to the WebSocket server and received from it in real time.
 The messages are displayed in the chat window.
 Running the Project
+
+
 Backend:
 
 Install dependencies: pip install -r requirements.txt
 Run the Django server: python manage.py runserver
 Run Daphne: daphne -p 8000 chat_project.asgi:application
+
+
 Frontend:
 
 Install dependencies: npm install
