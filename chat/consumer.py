@@ -68,3 +68,4 @@ class ChatConsumer(WebsocketConsumer):
             'username': username,
             'message': message
         }))
+
